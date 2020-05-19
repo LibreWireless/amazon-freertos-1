@@ -405,7 +405,7 @@ memp_malloc_fn(memp_t type, const char* file, const int line)
     }
     else
     {
-      printf("memp_malloc failed, type=%d\n", (int)type);
+//      printf("memp_malloc failed, type=%d\n", (int)type);
     }
   }
   
