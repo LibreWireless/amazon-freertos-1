@@ -1504,7 +1504,7 @@ void prvProvisionCredentialsWithKeyImport( CK_OBJECT_HANDLE_PTR pxPrivateKeyHand
         TEST_ASSERT_EQUAL_MESSAGE( CKR_OK, xResult, "Failed to create EC certificate." );
         TEST_ASSERT_NOT_EQUAL_MESSAGE( 0, *pxPrivateKeyHandle, "Invalid object handle returned for EC certificate." );
 
-        xCurrentCredentials = eEllipticCurveTest;
+//        xCurrentCredentials = eEllipticCurveTest;
     }
     else
     {
