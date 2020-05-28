@@ -127,7 +127,7 @@ static BaseType_t prvNetworkSend( void * pvContext,
                          pucData,
                          xDataLength,
                          ctx->send_flag );
-
+    osDelay(2);
     return ( BaseType_t ) ret;
 }
 
