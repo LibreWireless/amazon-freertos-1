@@ -6,7 +6,6 @@
 */
 
 
-
 #include "main.h"
 #include "stdint.h"
 #include "stdarg.h"
@@ -17,7 +16,7 @@
 #include "task.h"
 #include "cmsis_os.h"
 /* Test includes */
-#include "aws_test_runner.h"
+#include "aws_demo.h"
 //#include "iot_system_init.h"
 #include "iot_logging_task.h"
 #include "iot_wifi.h"
@@ -145,18 +144,12 @@ void vApplicationDaemonTaskStartupHook( void )
          * by production ready key provisioning mechanism. */
         vDevModeKeyProvisioning();
 
-        {
-            /* Connect to the wifi before running the demos */
-            prvWifiConnect();
+        /* Connect to the wifi before running the demos */
+        prvWifiConnect();
 
-            /* Create the task to run tests. */
-            xTaskCreate( TEST_RUNNER_RunTests_task,
-                         "TestRunner",
-                         mainTEST_RUNNER_TASK_STACK_SIZE,
-                         NULL,
-                         tskIDLE_PRIORITY,
-                         NULL );
-        }
+        /* Create the task to run tests. */
+        DEMO_RUNNER_RunDemos();
+        
     }
     else
     {
