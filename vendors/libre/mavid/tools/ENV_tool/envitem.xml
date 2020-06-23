@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attrnamespace SYSTEM "envbin.dtb">
+
+<!-- "Libre wireless env item xml"-->
+
+<!--HI LIBRE : Use UID from 0 to 200. Becasue UID from 200 is allocated for customers so please dont use -->
+
+
+<!--HI CUSTOMERS : Use UID starting from 200. Becasue UID from 1 to 200 is allocated for LIBRE so please dont use that range-->
+
+
+
+<envlist>
+    <attribute> 
+    	<name>Mavid</name>
+        <UID>0</UID> 
+        <value>False</value>
+    </attribute>
+	
+    <attribute> 
+    	<name>ssid</name>
+        <UID>1</UID> 
+        <value></value>
+    </attribute>
+
+   <attribute> 
+    	<name>security</name>
+        <UID>2</UID> 
+        <value></value>
+    </attribute>
+
+    <attribute> 
+    	<name>passphrase</name>
+        <UID>3</UID> 
+        <value>#IP6pGYS</value>
+    </attribute>
+	 
+	<attribute> 
+    	<name>HostComm</name>
+        <UID>4</UID> 
+        <value></value>
+    </attribute>
+	<attribute> 
+    	<name>DebugComm</name>
+        <UID>5</UID> 
+        <value>UART</value>
+    </attribute>
+	<attribute> 
+    	<name>mac</name>
+        <UID>6</UID> 
+        <value>d8:f7:10:a2:02:0e</value>
+    </attribute>
+
+  <attribute> 
+    	<name>productId</name>
+        <UID>7</UID> 
+        <value>Mavid_Libre</value>
+    </attribute>
+	
+    <attribute> 
+    	<name>refreshToken</name>
+        <UID>8</UID> 
+        <value></value>
+    </attribute>	
+	
+    <attribute> 
+    	<name>clientId</name>
+        <UID>9</UID> 
+        <value></value>
+    </attribute>
+
+    <attribute> 
+    	<name>productSerialNum</name>
+        <UID>10</UID> 
+        <value>12345874755</value>
+    </attribute>	
+	
+    <attribute> 
+    	<name>local</name>
+        <UID>11</UID> 
+        <value>en-US</value>
+    </attribute>
+	
+    <attribute> 
+    	<name>notifi_visual</name>
+        <UID>12</UID> 
+        <value>False</value>
+    </attribute>
+    
+    <attribute> 
+    	<name>endpoint</name>
+        <UID>13</UID> 
+        <value>https://avs-alexa-na.amazon.com/</value>
+    </attribute>
+
+    <attribute> 
+    	<name>OTAServerUrl</name>
+        <UID>14</UID> 
+        <value>http://192.168.11.49/Mavid.bin</value>
+    </attribute>
+    <attribute> 
+    	<name>psm</name>
+        <UID>15</UID> 
+        <value>-1:-1:-1</value>
+    </attribute>
+	<attribute> 
+    	<name>AsrpValue</name>
+        <UID>16</UID> 
+        <value></value>
+    </attribute>
+	<attribute> 
+    	<name>Source</name>
+        <UID>17</UID> 
+        <value>AVS</value>
+    </attribute>
+	<attribute> 
+    	<name>Volume</name>
+        <UID>18</UID> 
+        <value>50</value>
+    </attribute>
+	<attribute> 
+    	<name>PrivacyMode</name>
+        <UID>19</UID> 
+        <value>0</value>
+    </attribute>
+    <attribute>
+      <name>MaxAlerts</name>
+      <UID>20</UID>
+      <value>6</value>
+    </attribute>
+    <attribute>
+      <name>Alerts1</name>
+      <UID>21</UID>
+      <value></value>
+    </attribute>
+    <attribute>
+      <name>Alert2</name>
+      <UID>22</UID>
+      <value></value>
+    </attribute>
+    <attribute>
+      <name>Alert3</name>
+      <UID>23</UID>
+      <value></value>
+    </attribute>
+    <attribute>
+      <name>Alerts4</name>
+      <UID>24</UID>
+      <value></value>
+    </attribute>
+    <attribute>
+      <name>Alerts5</name>
+      <UID>25</UID>
+      <value></value>
+    </attribute>
+    <attribute>
+      <name>Alert6</name>
+      <UID>26</UID>
+      <value></value>
+    </attribute>
+    
+    <attribute>
+      <name>OTA_XML_URL</name>
+      <UID>27</UID>
+      <value>http://192.168.11.49/firmware_download.xml</value>
+    </attribute>
+
+    <attribute>
+      <name>BSL_OTA_URL</name>
+      <UID>28</UID>
+      <value>http://192.168.11.49/mavid_bsl.bin</value>
+    </attribute>
+    
+    <attribute>
+      <name>BT_LINK_KEY</name>
+      <UID>29</UID>
+      <value></value>
+    </attribute>
+    <attribute>
+      <name>MavidVer</name>
+      <UID>30</UID>
+      <value>1.0</value>
+    </attribute>
+	<attribute>
+      <name>AppSecurityKey</name>
+      <UID>31</UID>
+      <value>5375f0a6c57f076093602318907e44f2</value>
+    </attribute>
+	<attribute>
+      <name>FriendlyName</name>
+      <UID>32</UID>
+      <value>Libre</value>
+    </attribute>
+	<attribute>
+      <name>SAC_SSID</name>
+      <UID>33</UID>
+      <value>LSConfigure_</value>
+    </attribute>
+	<attribute>
+      <name>ssid_1</name>
+      <UID>34</UID>
+      <value></value>
+    </attribute>
+	<attribute>
+      <name>passphrase_1</name>
+      <UID>35</UID>
+      <value></value>
+    </attribute>
+	<attribute>
+      <name>BT_REM_DEV_DB</name>
+      <UID>36</UID>
+      <value></value>
+    </attribute>
+    <attribute>
+      <name>ssid_2</name>
+      <UID>37</UID>
+      <value></value>
+    </attribute>
+	<attribute>
+      <name>passphrase_2</name>
+      <UID>38</UID>
+      <value></value>
+    </attribute>
+    <attribute>
+      <name>ssid_3</name>
+      <UID>39</UID>
+      <value></value>
+    </attribute>
+	<attribute>
+      <name>passphrase_3</name>
+      <UID>40</UID>
+      <value></value>
+    </attribute>
+    <attribute>
+      <name>ssid_4</name>
+      <UID>41</UID>
+      <value></value>
+    </attribute>
+	<attribute>
+      <name>passphrase_4</name>
+      <UID>42</UID>
+      <value></value>
+    </attribute>
+	<attribute>
+      <name>wifiprofhist</name>
+      <UID>43</UID>
+      <value>1</value>
+    </attribute>
+	<attribute>
+      <name>Auto_FW_update_enable</name>
+      <UID>44</UID>
+      <value>False</value>
+    </attribute>
+	<attribute>
+      <name>fact_test_level</name>
+      <UID>45</UID>
+      <value>0</value>
+    </attribute>
+	<attribute>
+      <name>Device_Key</name>
+      <UID>46</UID>
+      <value>-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAulNzdawfhsMnfS+5zdaSilcmswyHqWv0HQM/CnUzcUXv06+7
+rIn4GmNJQYfPjJtxIsu0u+gZn8ydu961xum9aVyAVqBQioIkuIrBVt3yl5jotAfj
+1HsYEmDjwC2gDcRofCpRllEMhEsbkhx71OQo3m/aUsdIxzAY+uquh4J/ZhIExA30
+qBZW6afhHhYDmY8vT3wYLVlJi0YVZCiDA0w9KrqIJi8DP8LEh4/NBYVcH/SxpKv6
+j2yS/5ePw0czhAi/QihFnJufXyflsDST11zsl7gjtkSxKDi/dFIQaC/rBwlQVh7D
+ywXbTk16kGp/eJyBKp+BGBc+PNBR4x2W2OD0dQIDAQABAoIBAAYU0TDnBERmvDQ2
+yY6xUSkYvRec8hSShG4p+/XAa4Rn7vLuymZQPnvF/88WuqxxKlkjYuu7IJL5n7BR
+DYfHezokHcA2DUroAoDPbo4CQne2MuolU8dMmTWIWgactpucbHiY/P61+H2c4fJ7
+4YLKS5cu+WY4QOTXaglOfZHIrZXMNHx4WXjVboJNKU87f5X9xI7GAiUsKoshkZmh
+sLFy7nlCfZNqOc+bQRAgVahu5bEXEZ1eE8QGg/xZ4dP9Nu53vhK01HvVlzviRerO
+Fw0uqO3+d3Kl7A4OUli0CXpZAUKLQ76ZEp+X5qWSUkkFDe1Oyy7a3RPPRIZ8XH4t
+zWEWSSUCgYEA5BjAhFAv0m9zkNxM3F0NCCK+ma3hImjag6NkuX/lHsZK8QiIq5lY
+B6PDY0m8ku+HC11bHPknrxA/gNV3sALDhRjwnDzkpZ75Z22BUyMJOotSRNi3UaJl
+DHRnjF3xcMWhBvm8drDiXKLuwjPsoYnfalY2sKGfPsambDxgDHzfTlsCgYEA0R6T
+dbUGT9lkHPxkpF1/kvGMrG8nwq+DDyflYQOgk0yA9sDM2lzsoepz/mgPYiT3raWK
+5Tv+wVzecJrdpUsX7DG5+QCtodjlJuIdqtRvsA4lTx0PJOGT+uz13Sg5+gKhlGsB
+z5h1zq4gYgeYrp1jY3fjvGUxdw2x28XSiaeQ4W8CgYBwVnRydd+nn3ZmUOmV2kox
+yJLgs09fGA8OqClSZtfcGUMNhOtywBon4RK40rcKEugKw9a85UUTJkhwVjIVQLc0
+1PyjpiXiH/KrarY30NiZucYx3B4lGXr08FuTOS1RIjRVcCfOuP0zLJe0k8gmIvYi
+tAVJZsA8Na//PJj9bX65YwKBgQDQEdQ28f9tw6fRD3Az+rPMyXpmt9Kf63JDyjZ4
+6NsEtMI8wmkRfBQWpujy4SctSAsIRAaHP8KjMnxBHlYa+TS8Vl3sW7hnqR+YKLPM
+HcNjMS/+H7PJxokuykd33WaSU7vhqPcMT24oTyj5YQWR+BfECK4X7bfh9UZaneJ2
+BLwrEQKBgChImdATec4dWdBeSK+VBgiz1dZfYGMwPGQUvcNoGuS6QGZPMFw0U0dz
+53tlH+uO879qtQhwNm04Vx5Sua36C5P0o0trJ+m1qhzdZbz32l0SjNla3bQ34/fQ
+74KMM/e8qguP6lJimV3FVtN/7Nm1jcyVSYlhV7/9Xgn5f3onGtqW
+-----END RSA PRIVATE KEY-----
+</value>
+    </attribute>
+	<attribute>
+      <name>Device_Cert</name>
+      <UID>47</UID>
+      <value>-----BEGIN CERTIFICATE-----
+MIIDWjCCAkKgAwIBAgIVAL2oCwy/98BSprjd49bTy7X4NZBFMA0GCSqGSIb3DQEB
+CwUAME0xSzBJBgNVBAsMQkFtYXpvbiBXZWIgU2VydmljZXMgTz1BbWF6b24uY29t
+IEluYy4gTD1TZWF0dGxlIFNUPVdhc2hpbmd0b24gQz1VUzAeFw0yMDAxMDcxNTEx
+NDlaFw00OTEyMzEyMzU5NTlaMB4xHDAaBgNVBAMME0FXUyBJb1QgQ2VydGlmaWNh
+dGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC6U3N1rB+Gwyd9L7nN
+1pKKVyazDIepa/QdAz8KdTNxRe/Tr7usifgaY0lBh8+Mm3Eiy7S76BmfzJ273rXG
+6b1pXIBWoFCKgiS4isFW3fKXmOi0B+PUexgSYOPALaANxGh8KlGWUQyESxuSHHvU
+5Cjeb9pSx0jHMBj66q6Hgn9mEgTEDfSoFlbpp+EeFgOZjy9PfBgtWUmLRhVkKIMD
+TD0quogmLwM/wsSHj80FhVwf9LGkq/qPbJL/l4/DRzOECL9CKEWcm59fJ+WwNJPX
+XOyXuCO2RLEoOL90UhBoL+sHCVBWHsPLBdtOTXqQan94nIEqn4EYFz480FHjHZbY
+4PR1AgMBAAGjYDBeMB8GA1UdIwQYMBaAFDjhnpDiib8Dy1R8mZ18fskh6xFNMB0G
+A1UdDgQWBBRJ2quq9ooIlHMDbX+IKe5wB/i+vjAMBgNVHRMBAf8EAjAAMA4GA1Ud
+DwEB/wQEAwIHgDANBgkqhkiG9w0BAQsFAAOCAQEAvpVuvkXOUZV6NsK5192bgmT8
+XFzmylhwPAaSA4jvYumRR4p4glTE3bU/dAZYyBZMQIwSmasNzCEylo4I3kYQ3bcG
+qDqIpOgZ/AX1Dpcu2KKD+0KGQbh3Clm/zC9Tc116C9HRgS2j1IAyVhLT+Z4WRC8T
+OOU2QgY95pgw/J8ULwocMCyWGurBZbf0Kzkd5y3Fgc8Ute7IW0Xl95PGHebkhGIl
+YJIJbq/cAWNAOLhqti5npbcuExI3VEbb7Y4/CZlqym+Fz5II3mhEaa5kWA8o0LUv
+9LV7wWP8pxWH8pdmKVd9PB3/pudZxnJX/wKAlGoL/zjJHBMNeNyYUtRJTApKsQ==
+-----END CERTIFICATE-----
+</value>
+    </attribute>
+	<attribute>
+      <name>Root_C</name>
+      <UID>48</UID>
+      <value>-----BEGIN CERTIFICATE-----
+MIIDQTCCAimgAwIBAgITBmyfz5m/jAo54vB4ikPmljZbyjANBgkqhkiG9w0BAQsF
+ADA5MQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRkwFwYDVQQDExBBbWF6
+b24gUm9vdCBDQSAxMB4XDTE1MDUyNjAwMDAwMFoXDTM4MDExNzAwMDAwMFowOTEL
+MAkGA1UEBhMCVVMxDzANBgNVBAoTBkFtYXpvbjEZMBcGA1UEAxMQQW1hem9uIFJv
+b3QgQ0EgMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALJ4gHHKeNXj
+ca9HgFB0fW7Y14h29Jlo91ghYPl0hAEvrAIthtOgQ3pOsqTQNroBvo3bSMgHFzZM
+9O6II8c+6zf1tRn4SWiw3te5djgdYZ6k/oI2peVKVuRF4fn9tBb6dNqcmzU5L/qw
+IFAGbHrQgLKm+a/sRxmPUDgH3KKHOVj4utWp+UhnMJbulHheb4mjUcAwhmahRWa6
+VOujw5H5SNz/0egwLX0tdHA114gk957EWW67c4cX8jJGKLhD+rcdqsq08p8kDi1L
+93FcXmn/6pUCyziKrlA4b9v7LWIbxcceVOF34GfID5yHI9Y/QCB/IIDEgEw+OyQm
+jgSubJrIqg0CAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMC
+AYYwHQYDVR0OBBYEFIQYzIU07LwMlJQuCFmcx7IQTgoIMA0GCSqGSIb3DQEBCwUA
+A4IBAQCY8jdaQZChGsV2USggNiMOruYou6r4lK5IpDB/G/wkjUu0yKGX9rbxenDI
+U5PMCCjjmCXPI6T53iHTfIUJrU6adTrCC2qJeHZERxhlbI1Bjjt/msv0tadQ1wUs
+N+gDS63pYaACbvXy8MWy7Vu33PqUXHeeE6V/Uq2V8viTO96LXFvKWlJbYK8U90vv
+o/ufQJVtMVT8QtPHRh8jrdkPSHCa2XV4cdFyQzR1bldZwgJcJmApzyMZFo6IQ6XU
+5MsI+yMRQ+hDKXJioaldXgjUkK642M4UwtBV8ob2xJNDd2ZhwLnoQdeXeGADbkpy
+rqXRfboQnoZsG4q5WTP468SQvvG5
+-----END CERTIFICATE-----
+</value>
+    </attribute>
+	<attribute>
+      <name>Brand</name>
+      <UID>49</UID>
+      <value>Hama</value>
+    </attribute>
+	<attribute>
+      <name>Model</name>
+      <UID>50</UID>
+      <value>Home plug</value>
+    </attribute>
+	<attribute>
+      <name>ProductType</name>
+      <UID>51</UID>
+      <value>SPEAKER</value>
+    </attribute>
+	<attribute>
+      <name>IoT_ProductKey</name>
+      <UID>52</UID>
+      <value>wuAyWfHnQsu4bOsSwlhCu1xAQvQLGDh7AE7dbssg</value>
+    </attribute>
+	<attribute>
+      <name>IoT_EndpointUrl</name>
+      <UID>53</UID>
+      <value>a21lnppqgaatj0-ats.iot.eu-west-1.amazonaws.com</value>
+    </attribute>
+	<attribute>
+      <name>IoT_CVMUrl</name>
+      <UID>54</UID>
+      <value>https://open.hansong.io</value>
+    </attribute>
+</envlist>
